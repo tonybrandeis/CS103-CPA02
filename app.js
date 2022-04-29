@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public")); //dirname is the current script working path
 app.use(methodOverride("_method"));
 app.use(flash());
-// seedDB(); // seed the database
+// seedDB(); // seed the cloud database
 
 
 // Passport Configuration

@@ -55,7 +55,7 @@ router.get("/:id", function(req,res){
     });
 
 });
-// Edit campground route
+// Edit campground route in the background
 router.get("/:id/edit", middleWare.checkCampgroundOwnership, function (req, res) {
         Campground.findById(req.params.id, function (err, foundCampground) {
             res.render("restaurants/edit", {campground: foundCampground});

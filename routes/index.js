@@ -15,7 +15,7 @@ router.get("/", function (req, res) {
 // Auth routes
 // ===================
 
-// register form
+// register form function
 router.get("/register", function (req, res) {
     res.render("register");
 });

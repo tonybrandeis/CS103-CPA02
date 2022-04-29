@@ -105,7 +105,7 @@ $ node app.js
 
 ### 7. Comment
 
-- This feature will only be enabled when a user is logged in
+- This feature will only be enabled when a user is logged in and executes
 - Click the "More Info" button on the restaurant card on homepage, it will automatically redirect to the detail page
 - Scroll down the page and click "Add Comment" button
 - Complete the form and submit the comment, it will automatically redirect to detail page
