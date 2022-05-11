@@ -12,6 +12,15 @@ This is a restaurants sharing website. It allows users to share their experience
 
 - [Google Drive](https://drive.google.com/file/d/1o1NCNLgkWpG5eFQsEZHVFJhoQNRQb9Yn/view?usp=sharing)
 
+## Reference
+ The framework is build through vanilla JS.
+ The website design and stylesheet takes one web development bootcamp as reference listed below.
+ All the content are customized by myself
+1. Web development bootcamp - [udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+    - Campground.js 
+    - Stylesheet/landing.costs
+    - Stylesheet/main.css
+   
 ## Developer Guidance
 ### 1. Locate at the root path
 
@@ -105,7 +114,7 @@ $ node app.js
 
 ### 7. Comment
 
-- This feature will only be enabled when a user is logged in and executes
+- This feature will only be enabled when a user is logged in
 - Click the "More Info" button on the restaurant card on homepage, it will automatically redirect to the detail page
 - Scroll down the page and click "Add Comment" button
 - Complete the form and submit the comment, it will automatically redirect to detail page
